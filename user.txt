@@ -1,0 +1,12 @@
+// create a new database
+
+create database users;
+use users;
+// create tables
+
+create table 'user'
+    -> (
+    -> id int not null primary key auto_incremente,
+    -> user_name varchar(30) not null unique,
+    -> password varchar(30) not null,
+    -> time date);
