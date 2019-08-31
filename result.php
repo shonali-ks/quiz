@@ -9,7 +9,7 @@
 	
 	<title>Quiz</title>
 	
-	<link rel="stylesheet" type="text/css" href="style.css" />
+	<style>body{text-align:centre;background-color:black;color:white;}
 </head>
  
 <body>
