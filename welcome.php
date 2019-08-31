@@ -15,8 +15,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <meta charset="UTF-8">
     <title>Welcome</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
-    <style type="text/css">
-        body{ font: 14px sans-serif; text-align: center; }
+    <style>
+        body{ font: 14px sans-serif; text-align: center; background-image:url("quiz.jpg"); background-repeat:repeat;}
+	h3{color:red;}
+	h1{color:white;}
     </style>
 </head>
 <body>
@@ -35,7 +37,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             
                 <li>
                 
-                    <h3>What does Monica do for a living? Shes a ...</h3>
+                    <h3 >What does Monica do for a living? Shes a ...</h3>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
@@ -174,7 +176,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
  
 
     <p>
-        <a href="reset-password.php" class="btn btn-warning">Reset Your Password</a>
+        
         <a href="logout.php" class="btn btn-danger">Sign Out of Your Account</a>
     </p>
 </body>
